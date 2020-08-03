@@ -17,7 +17,7 @@ import SHOP_DATA from "./shop.data"
             <div className='shop-page'>
                {
                    collections.map(({id,...otherCollectionProps}) => (
-                       <CollectionPreview key={id}> {...otherCollectionProps}</CollectionPreview>
+                       <CollectionPreview key={id} {...otherCollectionProps}/>
                    ))
                }
             </div>
