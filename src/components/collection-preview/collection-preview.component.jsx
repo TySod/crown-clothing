@@ -6,7 +6,7 @@ import "./collection-preview.styles.scss"
 <<<<<<< HEAD
  const CollectionPreview = ({title, items}) => {
 =======
- const CollectionPreview = ({titems}) => {
+ const CollectionPreview = ({title, items}) => {
 >>>>>>> d5860490761dbc07848e501f404758e5bb73fb1f
     return (
         <div className="collection-preview">
